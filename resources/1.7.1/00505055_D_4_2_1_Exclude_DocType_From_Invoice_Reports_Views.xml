@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Migrations>
-  <Migration EntityType="D" Name="Exclude_DocType_From_Invoice_Reports_Views" ReleaseNo="4.2.1" SeqNo="505060">
+  <Migration EntityType="D" Name="Exclude_DocType_From_Invoice_Reports_Views" ReleaseNo="4.2.1" SeqNo="505055">
     <Comments>Exclude document types flagged with IsExcludeFromInvoiceReport from invoice and open item report views (RV_C_Invoice, RV_C_InvoiceLine, RV_OpenItem, RV_OpenItemToDate)</Comments>
     <Step DBType="Postgres" Parse="Y" SeqNo="10" StepType="SQL">
       <SQLStatement>CREATE OR REPLACE VIEW RV_C_INVOICE
